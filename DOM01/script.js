@@ -11,6 +11,9 @@ button.style.backgroundColor = 'tomato';
 button.style.color = 'white';
 button.setAttribute('data-id', '12345');
 
-
+// Insertar el h1 y el botón
 document.body.appendChild(h1);
 document.body.appendChild(button);
+
+// Anidar elementos
+document.body.style.backgroundColor = 'aqua';
